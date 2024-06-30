@@ -31,7 +31,7 @@
     opacity: 1;
   }
 
-  .card {
+  .card_section .card {
     border-color: goldenrod!important;
     box-shadow: 0 0 4px 1px rgb(88 75 1 / 60%);
   }

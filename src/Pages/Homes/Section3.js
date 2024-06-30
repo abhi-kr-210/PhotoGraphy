@@ -82,6 +82,16 @@ function Section3() {
               pagination={{ clickable: true }}
               modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
               className="mySwiper "
+              
+            breakpoints={{
+              250: {
+                slidesPerView: 2,
+              },
+              500: {
+                slidesPerView: 3,
+              },
+
+            }}
 
             >
               {mockData.map((galimage, index) => (

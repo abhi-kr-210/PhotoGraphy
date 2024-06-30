@@ -106,7 +106,9 @@
 /*section5 */
 .ads_section{
     padding-top: 70px;
-    padding-bottom: 86px;
+    padding-bottom: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .ads_section_container{
     position: relative;
@@ -121,8 +123,20 @@
 .ads_section_container h2{
     font-weight: 600;
     font-size: 2.7rem;
-    text-shadow:rgba(0, 0, 0, 0.5) 1px 1px 2px ;
+    text-shadow: rgb(5 5 5) 3px 3px 4px;
+    color: #fff7c3;
+   
+
+}
+.ads_section_container h5{
+    font-weight: 600;
+    text-shadow: rgb(255, 255, 255) 1px 0px 2px;
+    color: #141414;
  
+}
+
+.ads_section_container p{
+    font-weight: 600;
 }
 .ads_section_container_col1{
     margin-left: 41px;
@@ -130,6 +144,21 @@
 .ads_girl_img{
     max-width: 300px!important;
     max-height: 300px !important;
+}
+/* section6 team section*/
+.team_section{
+    padding-top: 40px;
+    padding-bottom: 86px;
+    background-image: url(../assets/team_back.jpg); 
+    background-size: cover;
+  
+    background-repeat: no-repeat; 
+   
+    height:100%;
+}
+.team_section_container{
+    padding-top: 140px;
+    padding-bottom: 40px;
 }
 @media (max-width: 992px) {
     /*home section */
@@ -168,7 +197,7 @@
 @media (max-width: 450px){
     /*section 5*/
     .ads_section_container h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .ads_girl_img{
         max-width: 200px!important;

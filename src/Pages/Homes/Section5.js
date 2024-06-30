@@ -10,15 +10,15 @@ function Section5() {
      <div className='d-flex justify-content-center align-items-center  mt-4 ads_section_container_col1'>
          <div>
          <h2 className='mb-0' >Photography</h2>
-         <h2 className='text-center mb-0 mt-0' >Workshop</h2>
+         <h2 className='mx-2 mb-0 mt-0' >Workshop</h2>
          <h2 className='mt-0' >for Beginners</h2>
          <h5 className='mb-0 text-center' style={{fontFamily:"cursive",fontWeight:600}}>Discount 35% Off</h5>
          <p className='mt-0 text-center mb-0'>Start From 7-13 june 2021</p>
          <div className="d-flex justify-content-center mt-1">
-         <i className="bi bi-facebook mx-1"></i>
-         <i className="bi bi-whatsapp mx-1"></i>
-         <i className="bi bi-instagram mx-1"></i>
-         <i className="bi bi-twitter-x mx-1"></i>
+         <i className="bi bi-facebook mx-1" style={{color:"blue"}}></i>
+         <i className="bi bi-whatsapp mx-1" style={{color:"green"}}></i>
+         <i className="bi bi-instagram mx-1" style={{color:"red"}}></i>
+         <i className="bi bi-twitter-x mx-1" style={{color:"black"}}></i>
          </div>
          </div>
      </div>

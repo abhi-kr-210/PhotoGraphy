@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../Styles/CardsStyle.css"
 function Cards({image,title, paragraph}) {
   return (
-    <Col className="mb-5">
+    <Col className="mb-5 card_section">
     <Card className="overflow-hidden">
       <div className="overflow-hidden card_image_dim">
         <Card.Img variant="top" src={image} />
