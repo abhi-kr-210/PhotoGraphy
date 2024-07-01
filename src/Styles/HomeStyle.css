@@ -110,6 +110,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .ads_section_container{
     position: relative;
     background-image: url(../assets/ads_back.jpg); 
@@ -118,7 +119,8 @@
     height:100%;
     box-shadow:  0 1px 20px rgba(0, 0, 0, 0.3);
     border-radius: 9px;
-    width: 65% !important;; 
+    width: 65% !important;
+   
 }
 .ads_section_container h2{
     font-weight: 600;
@@ -155,11 +157,98 @@
     background-repeat: no-repeat; 
    
     height:100%;
+    margin-bottom: 60px;
 }
 .team_section_container{
     padding-top: 140px;
     padding-bottom: 40px;
 }
+/*review section 7*/
+
+.review_section{
+    position: relative;
+    background-image: url(../assets/userreview/review_back.jpg); 
+    background-size: cover;
+     background-position: center center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 180px;
+    margin-top: 40px;
+   
+    overflow: hidden; 
+   
+}
+.carousel_item_container .carousel-inner {
+    overflow: unset;
+  }
+.carousel_item_container .carousel-caption {
+    position: relative;
+    right: unset;
+    left: unset;
+    
+}
+
+.carousel_item_container .user_img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 25px;
+    border:2px solid white;
+  }
+  .carousel_item_container .carousel-caption p {
+    font-size: 1.6rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin-bottom: 25px;
+  }
+  .carousel_item_container .carousel-caption .item_rating i {
+    color: var(--yellow);
+    margin-right: 5px;
+  }
+  .carousel_item_container .carousel-caption h5 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  /*promosection*/
+  .promo_section{
+  
+    background: linear-gradient(to top left, #ffffffed, #d5ffff);
+    padding-top:60px;
+    padding-bottom: 60px;
+  }
+  
+  .promo_section h4 {
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+  }
+  .promo_section h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--bg-coffee);
+  }
+  .promo_section p {
+    font-size: 1.125rem;
+    padding-right: 10%;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+  }
+  .promo_section .store{
+    max-width: 80% !important;
+  }
+  .promo_section .image_logo{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  .promo_section .mobile_app_img img{
+    max-width: 80% !important;
+  }
+  
 @media (max-width: 992px) {
     /*home section */
     .home_container {
@@ -192,6 +281,13 @@
     .ads_section_container{
         width:100% !important;
     }
+    
+    .promo_section h4 {
+        font-size: 1.8rem;
+      }
+      .promo_section h2 {
+        font-size: 3.75rem;
+      }
 }
 
 @media (max-width: 450px){
@@ -203,5 +299,19 @@
         max-width: 200px!important;
         max-height: 200px !important;
     }
+    .ads_section .container{
+        max-height: 189px !important;
+    }
 
+}
+
+@media (max-width: 450px){
+    /*section 5*/
+    .ads_section .container{
+        max-height: 189px !important;
+    }
+    .ads_girl_img{
+        max-width: 180px!important;
+        max-height: 180px !important;
+    }
 }

@@ -16,7 +16,6 @@ function Cardsteam({image,title, paragraph,name}) {
         <Card.Text className='mb-4' >{paragraph}</Card.Text>
         <div className="d-flex justify-content-center mt-1 mb-3">
          <i className="bi bi-facebook mx-1" ></i>
-         <i className="bi bi-whatsapp mx-1" ></i>
          <i className="bi bi-instagram mx-1" ></i>
          <i className="bi bi-twitter-x mx-1" ></i>
          </div>
