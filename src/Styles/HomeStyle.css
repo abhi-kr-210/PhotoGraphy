@@ -289,6 +289,27 @@
         font-size: 3.75rem;
       }
 }
+/* social meadia */
+.bi-whatsapp::before {
+  content: "\f437";
+  background-color: #80cb00;
+  border-radius: 6px;
+  color: white;
+}
+
+.bi-facebook::before {
+  content: "\f437";
+  background-color: #fcfcfc;
+  border-radius: 11px;
+  color: rgb(7, 85, 220);
+}
+
+.bi-twitter::before {
+  content: "\f437";
+  
+  border-radius: 11px;
+  color: rgb(7, 85, 220);
+}
 
 @media (max-width: 450px){
     /*section 5*/
